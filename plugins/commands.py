@@ -90,7 +90,7 @@ async def start(client, message):
         buttons = buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                         
-                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/atozflixbot"), 
+                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="https://t.me/i_popcorn_flix"), 
                     InlineKeyboardButton('Sᴛᴀᴛs', callback_data='stats')
 
                 ]]
