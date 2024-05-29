@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                       
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/atozflixbot"), 
-                    InlineKeyboardButton('Rᴜʟᴇs', url="https://t.me/atozflixbot")
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/i_popcorn_flix"), 
+                    InlineKeyboardButton('Rᴜʟᴇs', url="https://t.me/i_popcorn_flix")
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,7 +44,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                         
-                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/atozflixbot"), 
+                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="https://t.me/i_popcorn_flix"), 
                     InlineKeyboardButton('Sᴛᴀᴛs', callback_data='stats')
 
                 ]]
